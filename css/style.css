@@ -1,0 +1,607 @@
+        * {
+            padding: 0;
+            margin: 0;
+            outline: 0;
+        }
+        
+        a,
+        a:hover {
+            text-decoration: none;
+        }
+        
+        ul,
+        li,
+        ol {
+            text-decoration-style: none;
+            list-style: none;
+        }
+        
+        .h1,
+        .h2,
+        .h3,
+        .h4,
+        .h5,
+        .h6,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-bottom: 0px;
+        }
+        
+        html,
+        body {
+            scroll-behavior: smooth;
+            font-family: 'Cabin', sans-serif;
+        }
+        /* common css ends */
+        
+        .navbar {
+            padding: 0 8px;
+        }
+        
+        .navbar-brand span {
+            color: #FA0F00;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        
+        .navbar-nav .nav-item .nav-link {
+            color: #2c2c2c;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 22px 22px;
+        }
+        
+        .navbar-nav .nav-item .nav-link:hover {
+            background: #f1f1f1;
+        }
+        
+        .navbar form a i {
+            font-size: 18px;
+            font-weight: 400;
+            padding-right: 10px;
+        }
+        
+        .navbar form a {
+            color: #2c2c2c;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        
+        .res {
+            color: #2c2c2c;
+            font-size: 14px;
+            font-weight: 400;
+            display: none;
+        }
+        
+        .search {
+            display: none;
+        }
+        
+        #res-banner {
+            display: none;
+        }
+        
+        .banner {
+            min-height: 600px;
+            min-width: 100%;
+            margin-bottom: 220px;
+        }
+        
+        .banner .banner-video {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -1;
+            min-height: 600px;
+            min-width: 100%;
+        }
+        
+        .banner-detail {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            color: #fff;
+            z-index: 2;
+            font-size: 1.25rem;
+        }
+        
+        #banner {
+            position: relative;
+        }
+        
+        .banner h2 {
+            color: #000;
+            font-size: 38px;
+            font-weight: 700;
+            margin-top: 200px;
+            margin-bottom: 20px;
+            line-height: 44px;
+        }
+        
+        .banner p {
+            color: #000;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            margin-bottom: 40px;
+        }
+        
+        .banner .button {
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 16px;
+            min-height: 32px;
+            height: auto;
+            min-width: 72px;
+            padding: 4px 14px;
+            padding-bottom: 4.5px;
+            padding-top: 3.5px;
+            font-size: 14px;
+            font-weight: 700;
+            background-color: #1473e6;
+            border-color: #1473e6;
+            color: #fff;
+            margin-right: 20px;
+        }
+        
+        .banner .ankor {
+            color: #000;
+            font-size: 14px;
+        }
+        
+        .banner .ankor:hover {
+            text-decoration: underline;
+        }
+        
+        #aboutone {
+            margin-top: 40px;
+        }
+        
+        #aboutone .partone {
+            height: 500px;
+            padding: 35px 25px;
+            position: relative;
+            width: 395px;
+        }
+        
+        .partone h4 {
+            color: #000;
+            font-size: 22px;
+            line-height: 28px;
+            font-weight: 700;
+        }
+        
+        .partone p {
+            color: #000;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            padding-top: 15px;
+        }
+        
+        .partone a {
+            color: #000;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+        
+        .partone a:hover {
+            text-decoration: underline;
+        }
+        
+        .partone img {
+            position: absolute;
+            top: 230px;
+            left: 0;
+            width: 100%;
+        }
+        
+        .parttwo h4 {
+            color: #fff;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+        }
+        
+        .parttwo h3 {
+            color: #fff;
+            font-size: 22px;
+            font-weight: 28px;
+            margin-top: 30px;
+            font-weight: 700;
+        }
+        
+        .parttwo p {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            padding-top: 15px;
+        }
+        
+        .parttwo a {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+        
+        .parttwo a:hover {
+            text-decoration: underline;
+        }
+        
+        #aboutone .parttwo {
+            height: 500px;
+            padding: 35px 25px;
+            width: 395px;
+        }
+        
+        #aboutone .partthree {
+            height: 500px;
+            background: #000000;
+            color: #fff;
+            padding: 35px 25px;
+            width: 395px;
+        }
+        
+        .partthree h4 {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22px;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 5px;
+        }
+        
+        .partthree ul li a {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 40px;
+        }
+        
+        .partthree ul li a:hover {
+            text-decoration: underline;
+        }
+        
+        .partfour h4 {
+            color: #000;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+        }
+        
+        .partfour h3 {
+            color: #000;
+            font-size: 22px;
+            font-weight: 28px;
+            margin-top: 30px;
+            font-weight: 700;
+        }
+        
+        .partfour p {
+            color: #000;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            padding-top: 15px;
+        }
+        
+        .partfour a {
+            color: #000;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+        
+        .partfour a:hover {
+            text-decoration: underline;
+        }
+        
+        #abouttwo .partfour {
+            height: 450px;
+            padding: 35px 25px;
+            width: 810px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .partfive h4 {
+            color: #000;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+        }
+        
+        .partfive h3 {
+            color: #000;
+            font-size: 22px;
+            font-weight: 28px;
+            margin-top: 30px;
+            font-weight: 700;
+        }
+        
+        .partfive p {
+            color: #000;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            padding-top: 15px;
+        }
+        
+        .partfive a {
+            color: #000;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+        
+        .partfive a:hover {
+            text-decoration: underline;
+        }
+        
+        #abouttwo .partfive {
+            height: 450px;
+            padding: 35px 25px;
+            width: 395px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        
+        #about {
+            background: #6b7dfd;
+            height: 650px;
+        }
+        
+        #about img {
+            margin-top: 170px;
+            width: 100%;
+        }
+        
+        #about h4 {
+            margin-top: 210px;
+            margin-bottom: 40px;
+            color: #000;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+        }
+        
+        #about h1 {
+            margin-bottom: 40px;
+            color: #000;
+            font-size: 42px;
+            font-weight: 400;
+            line-height: 44px;
+        }
+        
+        #about p {
+            color: #000;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            padding-right: 55px;
+            padding-bottom: 10px;
+        }
+        
+        #about .button {
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 16px;
+            min-height: 32px;
+            height: auto;
+            min-width: 72px;
+            padding: 4px 14px;
+            padding-bottom: 4.5px;
+            padding-top: 3.5px;
+            font-size: 14px;
+            font-weight: 700;
+            border-color: #fff;
+            color: #fff;
+            transition: all linear .3s;
+            margin-right: 20px;
+        }
+        
+        #about .button:hover {
+            background: #fff;
+            color: #000;
+            transition: all linear .3s;
+        }
+        
+        #about .link {
+            color: #000;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+        
+        #about .link:hover {
+            text-decoration: underline;
+        }
+        
+        #aboutthree {
+            margin-top: 40px;
+            margin-bottom: 60px;
+        }
+        
+        #aboutthree .item {
+            height: 500px;
+            padding: 35px 25px;
+            width: 395px;
+        }
+        
+        #aboutthree .item h4 {
+            color: #000;
+            font-size: 17px;
+            line-height: 24px;
+            font-weight: 700;
+            padding-bottom: 30px;
+        }
+        
+        #aboutthree .item h3 {
+            font-size: 24px;
+            color: #000;
+            line-height: 34px;
+            font-weight: 700;
+        }
+        
+        #aboutthree .item p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+        
+        #aboutthree .item a {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 24px;
+            color: #000;
+        }
+        
+        footer {
+            background: #fafafa;
+            padding-top: 80px;
+        }
+        
+        footer .footer-item {
+            width: 20%;
+        }
+        
+        footer p {
+            color: #4B4B4B;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        
+        footer ul li a {
+            color: #4b4b4b;
+            font-size: 12px;
+            font-weight: 400;
+            transition: all linear .3s;
+        }
+        
+        footer ul li a:hover {
+            color: #999;
+        }
+        
+        footer .bodder {
+            border-bottom: 1px solid #4b4b4b;
+            width: 170px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+        
+        footer .download {
+            border-top: 1px solid #4b4b4b;
+            border-bottom: 1px solid #4b4b4b;
+            text-align: center;
+            width: 100%;
+            height: 40px;
+        }
+        
+        footer .download ul li {
+            color: #505050;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 40px;
+        }
+        
+        .download img {
+            height: 20px;
+            width: 20px;
+            margin-right: 10px;
+        }
+        
+        .download ul li {
+            display: inline-block;
+            padding: 0 15px;
+            box-sizing: border-box;
+        }
+        
+        #copyright {
+            background: #fafafa;
+            padding: 40px 0;
+        }
+        
+        #copyright .item1 {
+            width: 30%;
+        }
+        
+        #copyright .item1 img {
+            height: 18px;
+            width: 18px;
+            margin-right: 12px;
+        }
+        
+        #copyright .item1 ul li .link {
+            color: #4b4b4b;
+            font-size: 12px;
+            font-weight: 400;
+            transition: all linear .3s;
+            margin-right: 40px;
+        }
+        
+        #copyright .item1 ul li {
+            display: inline-block;
+        }
+        
+        #copyright .item1 ul li .icon {
+            background: #757575;
+            padding: 5px 8px;
+            line-height: 20px;
+            text-align: center;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+        
+        #copyright .item2 {
+            width: 70%;
+            text-align: right;
+        }
+        
+        #copyright .item2 ul li {
+            display: inline-block;
+        }
+        
+        #copyright .item2 ul li {
+            color: #4b4b4b;
+            font-size: 11px;
+            font-weight: 300;
+        }
+        
+        #copyright .item2 ul li a {
+            color: #4b4b4b;
+            font-size: 11px;
+            font-weight: 300;
+            transition: all linear .3s;
+        }
+        
+        #copyright .item2 ul li a:hover {
+            color: #999;
+            transition: all linear .3s;
+        }
+        
+        .footer-2 {
+            display: none;
+            position: relative;
+        }
+        
+        .footer-2 p i {
+            position: absolute;
+            right: 30px;
+        }
+        
+        .footer-2 .card {
+            border-bottom: 1px solid #000;
+        }

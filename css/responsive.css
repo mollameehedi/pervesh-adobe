@@ -1,0 +1,148 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+    nav {
+        height: 60px;
+        z-index: 1;
+    }
+    nav form {
+        display: none;
+    }
+    .navbar-brand span {
+        display: none;
+    }
+    .navbar-brand img {
+        margin-left: 140px;
+    }
+    .res {
+        display: inherit;
+        position: absolute;
+        right: 16px;
+        top: 20px;
+    }
+    .navbar-toggler {
+        position: absolute;
+        left: 10px;
+    }
+    .navbar-collapse {
+        background: #fff;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .search {
+        display: inherit;
+        position: relative;
+    }
+    .search input {
+        height: 36px;
+        width: 250px;
+        border: 1px solid #f4f4f4;
+        margin-left: 20px;
+        color: #999;
+        padding-left: 10px;
+    }
+    .search i {
+        position: absolute;
+        top: 10px;
+        right: 50px;
+    }
+    #res-banner {
+        display: inherit;
+        height: 220px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #banner {
+        background: none;
+        padding-right: 50px;
+        height: 400px;
+    }
+    #banner h2 {
+        margin-top: 60px;
+    }
+    #banner .ankor {
+        color: #1473e6;
+        font-weight: 700;
+        margin-left: 20px;
+        line-height: 20px;
+        display: block;
+    }
+    #aboutone .partone {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #aboutone .parttwo {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #aboutone .partthree {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #abouttwo .partfour {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #abouttwo .partfour {
+        background: 100%;
+    }
+    #abouttwo .partfive {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #about {
+        background: transparent;
+    }
+    #about .about-img {
+        background: #6b7dfd;
+    }
+    #about img {
+        margin-top: 0;
+    }
+    #about h4 {
+        margin-top: 60px;
+    }
+    #about .button {
+        border-color: #6b7dfd;
+        color: #fff;
+        background: #6b7dfd;
+    }
+    #about .button:hover {
+        color: #6b7dfd;
+    }
+    #about .link {
+        display: block;
+        margin-left: 10px;
+    }
+    #aboutthree .item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-2 {
+        display: inherit;
+    }
+    .card {
+        border: 0;
+    }
+    .downloads {
+        display: none;
+    }
+    .footer-items {
+        display: none;
+    }
+    #copyright .item1 {
+        width: 100%;
+        padding: 10px;
+    }
+    #copyright .item2 {
+        width: 100%;
+        text-align: left;
+        padding-right: 20px;
+    }
+}
