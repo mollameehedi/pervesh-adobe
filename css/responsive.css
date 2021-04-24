@@ -1,10 +1,70 @@
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-nav {
+        background: white;
+        padding: 50px 0;
+    }
+    .navbar-nav .nav-item .nav-link {
+        padding: 12px 22px;
+        text-align: center;
+    }
+    .banner {
+        min-height: 385px;
+        min-width: 100%;
+        margin-bottom: 0px;
+    }
+    #aboutone .partone {
+        width: 100%;
+        height: 480px;
+        
+    }
+    #aboutone .parttwo {
+        width: 100%;
+        height: 480px;
+        margin-top: 50px;
+    }
+    #aboutone .partthree {
+        height: 480px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    #abouttwo .partfour {
+        width:100%;
+    }
+    #abouttwo .partfive {
+        width: 100%;
+    }
+    #aboutthree .item {
+        height: 480px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    footer .footer-item {
+        display: none;
+    }
+    .footer-2 {
+        display: inherit;
+    }
+    .banner .banner-video {
+        width: 100%;
+        min-height: 385px;
+    }
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
+}
 
-@media (max-width: 575.98px) {
+
+
+@media (min-width: 576px) and (max-width: 767.98px)  {
+    .banner .banner-video {
+        width: 100%;
+        min-height: 320px;
+    }
+    .banner h2 {
+        margin-top: 15px;
+    }
     nav {
         height: 60px;
         z-index: 1;
@@ -53,6 +113,196 @@
     #res-banner {
         display: inherit;
         height: 220px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .banner {
+        min-height: 139px;
+        min-width: 100%;
+        margin-bottom: 220px;
+    }
+    #banner {
+        background: none;
+        padding-right: 50px;
+        height: 400px;
+    }
+    .banner {
+        min-height:105px;
+        min-width: 100%;
+        margin-bottom: 0px;
+    }
+    #banner h2 {
+        margin-top: 60px;
+    }
+    #banner .ankor {
+        color: #1473e6;
+        font-weight: 700;
+        margin-left: 20px;
+        line-height: 20px;
+        display: block;
+    }
+    #aboutone .partone {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #aboutone .parttwo {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #aboutone .partthree {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #abouttwo .partfour {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #abouttwo .partfour {
+        background: 100%;
+    }
+    #abouttwo .partfive {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #about {
+        background: transparent;
+    }
+    #about .about-img {
+        background: #6b7dfd;
+    }
+    #about img {
+        margin-top: 0;
+    }
+    #about h4 {
+        margin-top: 60px;
+    }
+    #about .button {
+        border-color: #6b7dfd;
+        color: #fff;
+        background: #6b7dfd;
+    }
+    #about .button:hover {
+        color: #6b7dfd;
+    }
+    #about .link {
+        display: block;
+        margin-left: 10px;
+    }
+    #aboutthree .item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-2 {
+        display: inherit;
+    }
+    .card {
+        border: 0;
+    }
+    .downloads {
+        display: none;
+    }
+    .footer-items {
+        display: none;
+    }
+    #copyright .item1 {
+        width: 100%;
+        padding: 10px;
+    }
+    #copyright .item2 {
+        width: 100%;
+        text-align: left;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 575.98px) {
+    .banner .banner-video {
+        width: 100%;
+        min-height: 185px;
+    }
+    .banner h2 {
+        margin-top: -132px;
+    }
+    .banner p {
+        color: #000;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        margin-bottom: 9px;
+    }
+    .banner h2 {
+        color: #000;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 44px;
+    }
+    .banner-detail {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 29%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        color: #fff;
+        z-index: 2;
+        font-size: 1.25rem;
+    }
+    .banner {
+        min-height: 110px;
+        min-width: 100%;
+        margin-bottom: 0px;
+    }
+    nav {
+        height: 60px;
+        z-index: 1;
+    }
+    nav form {
+        display: none;
+    }
+    .navbar-brand span {
+        display: none;
+    }
+    .navbar-brand img {
+        margin-left: 140px;
+    }
+    .res {
+        display: inherit;
+        position: absolute;
+        right: 16px;
+        top: 20px;
+    }
+    .navbar-toggler {
+        position: absolute;
+        left: 10px;
+    }
+    .navbar-collapse {
+        background: #fff;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .search {
+        display: inherit;
+        position: relative;
+    }
+    .search input {
+        height: 36px;
+        width: 250px;
+        border: 1px solid #f4f4f4;
+        margin-left: 20px;
+        color: #999;
+        padding-left: 10px;
+    }
+    .search i {
+        position: absolute;
+        top: 10px;
+        right: 50px;
+    }
+    #res-banner {
+        display: inherit;
+        height: 0px;
         width: 100%;
         background-size: cover;
         background-position: center;

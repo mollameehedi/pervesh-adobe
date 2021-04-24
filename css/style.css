@@ -40,6 +40,7 @@
         
         .navbar {
             padding: 0 8px;
+            z-index: 20;
         }
         
         .navbar-brand span {
